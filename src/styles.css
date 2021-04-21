@@ -1,0 +1,298 @@
+.App {
+  font-family: "https://fonts.google.com/specimen/Poppins";
+  font-size: 18px;
+}
+
+.logo 
+{
+  margin-left: -25px;
+}
+
+.signUpButton {
+  border-radius: 50px;
+  background-color: hsl(180, 66%, 49%);
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.navStyle 
+{
+  font-family: "Poppins", sans-serif;
+}
+
+.getStartedButton {
+  border-radius: 50px;
+  background-color: hsl(180, 66%, 49%);
+  border: none;
+  color: white;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.navLinkStyle {
+  font-weight: 500;
+}
+
+/* .workingWomanImg {
+  overflow: hidden;
+} */
+.homeHeading {
+  font-weight: 800;
+  font-size: 70px;
+}
+
+.buildBrand {
+  color: hsl(0, 0%, 75%);
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.home {
+  padding-top: 100px;
+}
+
+.statistics {
+  background-color: #eff1f7;
+}
+.homeDiv {
+  padding-bottom: 125px;
+}
+.statHeader {
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 5rem;
+}
+.stat {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.statistics{
+padding-top: 4rem;
+}
+.boost {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.boostImg {
+  background-image: url("https://res.cloudinary.com/lawlah/image/upload/v1618620976/bg-boost-desktop.svg");
+  background-color: #312946;
+  background-size: cover;
+}
+.statBody {
+  font-size: 16px;
+  color: hsl(0, 0%, 75%);
+}
+.boostHeader {
+  color: white;
+  font-weight: 400;
+  font-size: 35px;
+}
+.footer 
+{
+background-color: #0e0c15;
+color: white;
+padding-top: 100px;
+padding-bottom: 70px;
+font-size: 13px;
+font-family: "Poppins", sans-serif;
+}
+
+.footermessages 
+{
+  color: hsl(0, 0%, 75%);
+}
+
+/* search bar */
+.backgroundCard
+{
+  background-image: url("https://res.cloudinary.com/lawlah/image/upload/v1618620976/bg-boost-desktop.svg");
+  background-color: #312946;
+  padding: 50px;
+  border-radius: 7px;
+  /* transform: rotateY(180deg); */
+}
+
+.InputContainer 
+{
+  width: 85%;
+  height: 44px;
+  border-radius: 5px;
+  border: none;
+}
+
+.shortenButton 
+{
+width: 13%;
+height: 44px;
+border-radius: 5px;
+background-color: hsl(180, 66%, 49%);
+border: none;
+color: white;
+font-family: "Poppins", sans-serif;
+font-weight: 800;
+}
+
+::placeholder {
+  color: hsl(0, 0%, 75%);
+  font-family: "Poppins", sans-serif;
+  /* opacity: 0.7;  */
+}
+
+
+
+/* card styling for statistics */
+.card-title{
+  font-weight: 700 !important;
+  margin-top: 10px;
+  color: #3c4858;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+.card {
+  border: 0;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  border-radius: 6px !important;
+  color: rgba(0,0,0,.87);
+  background: #fff;
+  width: 100%;
+}
+
+.card .card-body{
+  padding: .9375rem 1.875rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-description{
+  color: hsl(0, 0%, 75%);
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+.card.card-profile{
+  text-align: center;
+}
+.card .card-header.card-header-image {
+  position: relative;
+  padding: 0;
+  z-index: 1;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: -30px;
+  border-radius: 6px;
+  max-height: 215px;
+}
+
+.card .card-header.card-header-image a {
+  display: block;
+}
+
+.card .card-header.card-header-image img {
+  width: 100%;
+  height: 215px;
+  border-radius: 6px;
+  pointer-events: none;
+  /* box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2); */
+  
+}
+
+
+.card .card-header.card-header-image .colored-shadow {
+  transform: scale(.94);
+  top: 12px;
+  filter: blur(12px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+  transition: opacity .45s;
+  opacity: 1;
+}
+
+.card .card-header.card-header-image .card-title {
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  color: #fff;
+  font-size: 1.125rem;
+  text-shadow: 0 2px 5px rgba(33,33,33,.5);
+  font-weight: 700;
+  font-family: 'Roboto Slab';
+}
+
+.card .card-category {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.card .card-body+.card-footer {
+  padding-top: 0;
+  border: 0;
+  border-radius: 6px;
+}
+
+.card .card-footer {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+}
+
+.card-profile .card-footer .btn.btn-just-icon{
+  font-size: 20px;
+  padding: 12px 13px;
+  line-height: 1em;
+}
+
+.card .card-footer {
+  padding: .9375rem 1.875rem;
+}
+
+
+.card-profile .card-body+.card-footer{
+  margin-top: -15px;
+}
+.card .text-info {
+  color: #00bcd4!important;
+}
+
+.card-profile .card-avatar {
+  width: 55px;
+  max-width: 55px;
+  max-height: 55px;
+  margin-top: -30px;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.card-profile .card-avatar img
+{
+  margin-top: 15px;
+  height: 25px;
+  width: 25px;
+}
+.card-profile .card-avatar+.card-body{
+  margin-top: 15px;
+}
+
+.thirdcard 
+{
+  padding-top: 6rem!important;
+}
+.brand 
+{
+  background-color: #312946;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+
+.searchBarStyle 
+{
+margin-top: -140px;
+}
